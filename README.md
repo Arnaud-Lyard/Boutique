@@ -1,4 +1,4 @@
-# Boutique en ligne API
+# Boutique avec espace membre
 
 Réalisation d'un catalogue avec enregistrement des produits par l'utilisateur connecté.
 L'utilisateur peut modifier ses produits enregistrés avec l'image. Les fichiers sont automatiquements enregistrés sur le serveur.
