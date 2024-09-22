@@ -16,7 +16,7 @@ TOKEN = RANDOM_TOKEN_SECRET
 ```
 Edit the .env file and configure it with the MongoDB database connection details.
 Run the command `npm install` to install the necessary modules.
-### Frontend
+### Frontend
 Run the command `npm install` to install the necessary modules.
 Starting the Application
 ### Database
