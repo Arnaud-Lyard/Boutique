@@ -1,52 +1,39 @@
-# Boutique avec espace membre
+# Boutique with a Member Area
+Creating a catalog where logged-in users can register products.
+Users can edit their registered products, including the image. Files are automatically saved on the server.
+Visitors can view the products for sale, but users cannot modify other users' products.
 
-Réalisation d'un catalogue avec enregistrement des produits par l'utilisateur connecté.
-L'utilisateur peut modifier ses produits enregistrés avec l'image. Les fichiers sont automatiquements enregistrés sur le serveur.
-Les visiteurs peuvent consulter les produits en vente. Les utilisateurs ne peuvent pas modifier les produits des autres utilisateurs.
+## Getting Started
+Download the Git repository to initialize the project.
 
-## Pour commencer
+## Prerequisites
+Node.js
+## Installation
+### Backend
+Create a .env file and add the following line:
+```
+TOKEN = RANDOM_TOKEN_SECRET
+```
+Edit the .env file and configure it with the MongoDB database connection details.
+Run the command `npm install` to install the necessary modules.
+### Frontend
+Run the command `npm install` to install the necessary modules.
+Starting the Application
+### Database
+Install MongoDB Compass to store the database.
 
-Télécharger le dépôt Git pour initialiser le projet
+### Backend
+Run the command npm run start to launch the backend using Symfony.
 
-### Pré-requis
+### Frontend
+Run the command npm run serve to launch the frontend using Vue.js.
 
-- Node.js
-
-### Installation
-
-#### Backend
-Créer un fichier .env et insérer ``TOKEN = RANDOM_TOKEN_SECRET`` dans le fichier.
-Modifier le fichier .env et le diriger vers la base de données mongoDB.
-
-Lancer la commande ``npm install`` pour installer les modules.
-
-#### Frontend
-Lancer la commande ``npm install`` pour installer les modules.
-
-### Démarrage
-
-#### Base de données
-Installer MongoDBCompass pour stocker la base de données
-#### Backend
-Lancer la commande ``npm run start`` pour lancer Symfony.
-#### Frontend
-Lancer la commande ``npm run serve`` pour lancer Vue.js.
-
-### Technologies utilisées
-
+## Technologies Used
 Vue.js version 3
 Node.js
 MongoDB
 Express
 Bootstrap
-
-### Réalisation
-
-Participants du projet : Farid TAHIRI, Alexis RIGOULOT et Arnaud LYARD
-Utilisation des méthodes agiles et SCRUM pour réaliser le projet.
-
-### Aides à la réalisation du projet
-[Backend](https://www.bezkoder.com/node-js-jwt-authentication-mysql/)
-[Frontend](https://www.bezkoder.com/vue-3-crud/)
-
-Et les documentations des technologies utilisées.
+Project Development
+Project Participants: Farid TAHIRI, Alexis RIGOULOT, and Arnaud LYARD
+Agile and SCRUM methodologies were used for the project development.
