@@ -23,10 +23,10 @@ Starting the Application
 Install MongoDB Compass to store the database.
 
 ### Backend
-Run the command npm run start to launch the backend using Symfony.
+Run the command `npm run start` to launch the backend using Symfony.
 
 ### Frontend
-Run the command npm run serve to launch the frontend using Vue.js.
+Run the command `npm run serve` to launch the frontend using Vue.js.
 
 ## Technologies Used
 Vue.js version 3
